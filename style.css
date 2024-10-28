@@ -1,0 +1,33 @@
+body{
+    background-color: peru;
+}
+
+h1{
+    text-align: center;
+    color:whitesmoke
+    margin-top :20px;
+    margin-bottom : 0px;
+    font-size:60px;
+}
+
+.container{
+    width:70%;
+    height:450px;
+    display: flex;
+    justify-content: center;
+    margin:50px 0 0 200px;;
+    gap:10px;
+}
+
+.container img{
+    width:10%;
+    height:60%;
+    object-fit:cover;
+    border-color: rgba(255,100,200,0.2);
+    border-radius:20px;
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 25%;
+}
