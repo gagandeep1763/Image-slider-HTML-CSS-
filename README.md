@@ -28,5 +28,6 @@ The design is responsive and easy to customize with your own images or styling.
 ## Developed By
 
 Gagandeep D  
-Google Cerified UI/UX Designer
+Google Cerified UI/UX Designer.
+
 This project was created to practice CSS transitions, layout techniques, and hover interactions.
