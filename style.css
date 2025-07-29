@@ -1,73 +1,68 @@
-/* Background Animation */
+/* Image Slider Styling */
+
 body {
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
-    background-size: 400% 400%;
-    animation: gradientBG 15s ease infinite;
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  background: linear-gradient(135deg, #5ee7df, #b490ca);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 @keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
-/* Header Styling */
 h1 {
-    text-align: center;
-    color: #fff;
-    margin-top: 30px;
-    font-size: 48px;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #ffffff;
+  margin-top: 30px;
+  font-size: 48px;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Image Container */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    padding: 40px 20px;
-    gap: 30px;
-    scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 40px 20px;
+  gap: 30px;
+  scroll-behavior: smooth;
 }
 
-/* Scrollbar Customization */
 .container::-webkit-scrollbar {
-    height: 10px;
+  height: 10px;
 }
 
 .container::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
 }
 
-/* Image Styling */
 .container img {
-    flex: 0 0 auto;
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    border: 6px solid transparent;
-    border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-    transition: transform 0.4s ease, filter 0.4s ease;
+  flex: 0 0 auto;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border: 6px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  transition: transform 0.4s ease, filter 0.4s ease;
 }
 
-/* Different Borders for Each Image */
-.container img:nth-child(1) { border-color: #ff6f61; }
-.container img:nth-child(2) { border-color: #6a67ce; }
-.container img:nth-child(3) { border-color: #20c997; }
-.container img:nth-child(4) { border-color: #ffc107; }
-.container img:nth-child(5) { border-color: #17a2b8; }
+.container img:nth-child(1) { border-color: #00bcd4; }
+.container img:nth-child(2) { border-color: #9c27b0; }
+.container img:nth-child(3) { border-color: #ff9800; }
+.container img:nth-child(4) { border-color: #4caf50; }
+.container img:nth-child(5) { border-color: #f44336; }
 
-/* Hover Effect */
 .container img:hover {
-    transform: scale(1.15) rotate(-2deg);
-    filter: brightness(1.2);
-    z-index: 10;
+  transform: scale(1.15) rotate(-2deg);
+  filter: brightness(1.2);
+  z-index: 10;
 }
