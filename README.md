@@ -1,5 +1,7 @@
 # Image Slider
 
+![Output](https://github.com/gagandeep1763/Image-slider-HTML-CSS-/raw/main/Output.png)
+
 This is a simple image slider project built using only HTML and CSS. 
 It displays a row of images, and when the user hovers over any image, that image expands smoothly to draw attention while the others shrink. 
 The project demonstrates how hover effects and transitions can be used to create interactive UI components without any JavaScript.
